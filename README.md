@@ -1,1 +1,1 @@
-# ML-Powered-Diabetes-Risk-Prediction-App
+# ML-Powered-Diabetes-Risk-Prediction-Project
