@@ -16,7 +16,7 @@ library(shinycssloaders)
 library(DT)
         
 
-donut_metrics <- readRDS("~/Diabetes Prediction/donut_chart.rds")
+donut_metrics <- readRDS("Functions/donut_chart.rds")
 
 # Define UI
 ui <- fluidPage(
@@ -83,8 +83,8 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   # Load pre-trained model 
-  svm_model_pp <- readRDS("~/Diabetes Prediction/svm_model.rds")
-  scaler <- readRDS("~/Diabetes Prediction/scaler.rds")
+  svm_model_pp <- readRDS("Model/svm_model.rds")
+  scaler <- readRDS("Functions/scaler.rds")
   
   # Function for transparent donut plot rendering
   render_donut <- function(metric_value, metric_label) {
@@ -123,7 +123,7 @@ server <- function(input, output) {
     
     
     # Performance metrics
-    key_metrics <- readRDS("~/Diabetes Prediction/calculation_metrics.rds")
+    key_metrics <- readRDS("Functions/calculation_metrics.rds")
     
     # Display donut charts as output
     output$donut_1 <- render_donut(key_metrics$Precision, "Precision")
