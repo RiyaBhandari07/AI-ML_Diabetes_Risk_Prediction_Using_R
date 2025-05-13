@@ -12,7 +12,6 @@ required_packages <- c(
   "shinythemes",
   "ggplot2",
   "gridExtra",
-  "shinycssloaders",
   "DT"
 )
 
