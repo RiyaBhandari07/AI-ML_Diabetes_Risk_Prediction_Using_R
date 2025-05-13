@@ -6,12 +6,14 @@ RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
     libssl-dev \
     libxml2-dev \
-    libxt-dev \
+    libxt6 \
+    libglpk-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
     libpng-dev \
-    libjpeg-dev \
-    libtiff-dev \
-    libicu-dev \
-    && apt-get clean
+    libtiff5-dev \
+    libjpeg-dev
 
 # Copy your app and package installation script
 COPY . /srv/shiny-server/
@@ -20,7 +22,7 @@ COPY . /srv/shiny-server/
 WORKDIR /srv/shiny-server/
 
 # Install R packages
-RUN Rscript install_packages.R
+RUN Rscript install.packages.R
 
 # Expose Shiny port
 EXPOSE 3838
