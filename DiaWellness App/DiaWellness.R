@@ -12,6 +12,9 @@ library(MLmetrics)
 library(shinythemes)
 library(ggplot2)
 library(gridExtra)
+library(shinycssloaders)
+library(DT)
+        
 
 donut_metrics <- readRDS("~/Diabetes Prediction/donut_chart.rds")
 
