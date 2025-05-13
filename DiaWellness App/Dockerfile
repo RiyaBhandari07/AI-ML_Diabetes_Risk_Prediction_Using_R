@@ -20,7 +20,7 @@ COPY . /srv/shiny-server/
 WORKDIR /srv/shiny-server/
 
 # Install R packages
-RUN Rscript install.packages.R
+RUN Rscript install_packages.R
 
 # Expose Shiny port
 EXPOSE 3838
