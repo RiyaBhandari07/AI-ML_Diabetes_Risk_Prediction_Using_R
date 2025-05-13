@@ -1,5 +1,7 @@
 # This script installs all required packages for the DiaWellness Shiny App.
 
+options(repos = c(CRAN = "https://cloud.r-project.org/"))
+
 required_packages <- c(
   "shiny",
   "caret",
@@ -9,7 +11,9 @@ required_packages <- c(
   "MLmetrics",
   "shinythemes",
   "ggplot2",
-  "gridExtra"
+  "gridExtra",
+  "shinycssloaders",
+  "DT"
 )
 
 # Function to check and install packages
