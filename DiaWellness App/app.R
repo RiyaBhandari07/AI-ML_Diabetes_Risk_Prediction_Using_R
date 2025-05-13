@@ -12,10 +12,8 @@ library(MLmetrics)
 library(shinythemes)
 library(ggplot2)
 library(gridExtra)
-library(shinycssloaders)
 library(DT)
         
-
 donut_metrics <- readRDS("Functions/donut_chart.rds")
 
 # Define UI
