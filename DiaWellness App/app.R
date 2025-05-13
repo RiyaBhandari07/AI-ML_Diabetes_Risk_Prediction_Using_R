@@ -26,7 +26,7 @@ ui <- fluidPage(
   tags$head(
     tags$style(HTML("
       body {
-        background-image: url('diabetes_banner.png');  
+        background-image: url('www/diabetes_banner.png');  
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -134,9 +134,9 @@ server <- function(input, output) {
     # Display image based on prediction
     output$image <- renderUI({
       if (prediction == 1){
-        tags$img(src = "warning.png", height = "400px")
+        tags$img(src = "www/warning.png", height = "400px")
       } else {
-        tags$img(src = "healthy.png", height = "400px")
+        tags$img(src = "www/healthy.png", height = "400px")
       }
     })
     
