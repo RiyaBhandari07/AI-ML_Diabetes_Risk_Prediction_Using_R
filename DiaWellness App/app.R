@@ -2,9 +2,12 @@
 ########### SMART DIABETES RISK PREDICTOR WEB-APP : DIAWELLNESS ################
 ################################################################################
 
-
 library(shiny)
 library(caret)
+library(keras)
+library(dplyr)
+library(tidyr)
+library(readr)
 library(e1071)
 library(kernlab)
 library(pROC)
@@ -12,9 +15,10 @@ library(MLmetrics)
 library(shinythemes)
 library(ggplot2)
 library(gridExtra)
-library(DT)
+library(patchwork)
+library(scales)
         
-donut_metrics <- readRDS("Functions/donut_chart.rds")
+donut_metrics <- readRDS(file.path("Functions", "donut_chart.rds"))
 
 # Define UI
 ui <- fluidPage(
@@ -81,8 +85,8 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   # Load pre-trained model 
-  svm_model_pp <- readRDS("Model/svm_model.rds")
-  scaler <- readRDS("Functions/scaler.rds")
+  svm_model_pp <- readRDS(file.path("Model", "svm_model.rds"))
+  scaler <- readRDS(file.path("Functions", "scaler.rds"))
   
   # Function for transparent donut plot rendering
   render_donut <- function(metric_value, metric_label) {
@@ -121,7 +125,7 @@ server <- function(input, output) {
     
     
     # Performance metrics
-    key_metrics <- readRDS("Functions/calculation_metrics.rds")
+    key_metrics <- readRDS(file.path("Functions", "calculation_metrics.rds"))
     
     # Display donut charts as output
     output$donut_1 <- render_donut(key_metrics$Precision, "Precision")
