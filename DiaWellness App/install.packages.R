@@ -5,6 +5,10 @@ options(repos = c(CRAN = "https://cloud.r-project.org/"))
 required_packages <- c(
   "shiny",
   "caret",
+  "keras",
+  "dplyr",
+  "tidyr",
+  "readr",
   "e1071",
   "kernlab",
   "pROC",
@@ -12,8 +16,10 @@ required_packages <- c(
   "shinythemes",
   "ggplot2",
   "gridExtra",
-  "DT"
-)
+  "DT",
+  "patchwork",
+  "scales"
+  )
 
 # Function to check and install packages
 install_if_missing <- function(pkg) {
