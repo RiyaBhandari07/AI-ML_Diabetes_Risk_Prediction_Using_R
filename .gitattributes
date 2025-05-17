@@ -1,0 +1,5 @@
+# Force Jupyter Notebooks to be treated as R
+*.ipynb linguist-language=R
+
+# Treat .rds files as documentation (excluded from language stats)
+*.rds linguist-documentation
