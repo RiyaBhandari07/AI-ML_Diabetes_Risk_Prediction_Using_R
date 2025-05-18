@@ -106,7 +106,7 @@ Outcome   n     percentage
 
 
 ## 🔭 Project Scope
-To build the best possible diabetes prediction model, a comprehensive analysis was conducted on the most popular supervised machine learning algorithms. Their performance was evaluated both with and without the application of SMOTE for handling class imbalance, alongside hyperparameter tuning using Grid Search CV. The model with the highest overall performance—assessed primarily by the ROC-AUC metric—was selected for deployment. Check out, detailed methodology and results in the [NoteBook/Diabetes_Risk_Prediction.ipynb]notebook:
+To build the best possible diabetes prediction model, a comprehensive analysis was conducted on the most popular supervised machine learning algorithms. Their performance was evaluated both with and without the application of SMOTE for handling class imbalance, alongside hyperparameter tuning using Grid Search CV. The model with the highest overall performance—assessed primarily by the ROC-AUC metric—was selected for deployment. Check out, detailed methodology and results in the [notebook](NoteBook/Diabetes_Risk_Prediction.ipynb):
 
 ### Approach
 
