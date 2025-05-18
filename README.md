@@ -100,10 +100,7 @@ Outcome   n     percentage
 <int>   <int>     <dbl>
  0	  500	    65		
  1	  268	    35
-
 ```
-
-
 
 
 
@@ -160,7 +157,18 @@ To build the best possible diabetes prediction model, a comprehensive analysis w
 
 •	R-Shinyapps
 
+
+
+
 ## Model Performance 
+<p align="center">
+<img src="Model/Model PM - 1.png" width="800"/>
+</p>
+
+
+<p align="center">
+<img src="Model/Model PM - 2.png" width="800"/>
+</p>
 
 Overall, SVM is the most effective model post-tuning, delivering the strongest balance of accuracy, precision, and recall for high-quality healthcare related predictions.
 
@@ -174,6 +182,8 @@ Overall, SVM is the most effective model post-tuning, delivering the strongest b
 •	**Model Performance Metrics:** View key evaluation metrics such as Precision, Recall, F1 Score, and Accuracy to understand the predictive model’s effectiveness.
 
 
+
+
 ## 💡 Just for Fun 
 
 In a World full of 
@@ -181,7 +191,7 @@ In a World full of
   <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python Icon" height="30"/>
 </a>, Let's Make 
 <a href="https://www.r-project.org/" target="_blank">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Logo" height="30">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R Logo" height="25">
 </a>
 more Shiny!✨
 
