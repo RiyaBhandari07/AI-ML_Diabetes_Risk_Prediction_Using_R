@@ -161,7 +161,7 @@ To build the best possible diabetes prediction model, a comprehensive analysis w
 •	R-Shinyapps
 
 ## Model Performance 
- 
+
 Overall, SVM is the most effective model post-tuning, delivering the strongest balance of accuracy, precision, and recall for high-quality healthcare related predictions.
 
 ## 🌐 Interactive Web-App Features
