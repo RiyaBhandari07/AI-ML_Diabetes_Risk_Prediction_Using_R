@@ -18,9 +18,9 @@
 According to projections by the International Diabetes Federation (IDF), by the year 2050, approximately 1 in 8 adults—an estimated 853 million people—will be living with diabetes, marking a 46% increase. Over 90% of these cases are expected to be type 2 diabetes, which is influenced by a combination of socioeconomic, demographic, environmental, and genetic factors. In India alone, the Indian Council of Medical Research (ICMR) estimated in 2023 that 101 million people—11.4% of the population—are currently living with diabetes.
 
 ## 🎯Motivation
-Belonging to a Biotech stream and have worked in healthcare industry, I love to research about on-going advancement in medicine and pharmaceutical world. Upon completion of ML and deep learning studies, I was intrigued to work on ML project related to healthcare involving real-world data and came across [Pima Indians Diabetes Database](https://archive.ics.uci.edu/dataset/34/diabetes)  featured on UCI and Kaggle.
+Coming from a biotech background and having worked in the healthcare industry, I love staying updated on new medical breakthroughs. Upon completion of machine learning and deep learning studies, I was intrigued to work on ML project related to real world healthcare problem and came across [Pima Indians Diabetes Database](https://archive.ics.uci.edu/dataset/34/diabetes)  featured on UCI and Kaggle.
 
- What began as an exploratory data analysis and model comparison quickly turned into a full-fledged machine learning project, I started by implementing five supervised algorithms—Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and Support Vector Machine. My curiosity dove me deeper by incorporating SMOTE and GridSearchCV for hyperparameter tuning which brought the model performance to the next level.
+ What began as an exploratory data analysis and model comparison quickly turned into a full-fledged machine learning project, I started by implementing five supervised algorithms—Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and Support Vector Machine. My curiosity led me to delve deeper by incorporating SMOTE and GridSearchCV for hyperparameter tuning which brought the model performance to the next level.
  
 Just when I thought the project was done, a nudge in my brain cell pushed me further. I wanted to see my work come to life. That’s when I decided to build an interactive web application using R Shiny. The result? A user-friendly, AI/ML-powered app for real-time diabetes risk prediction— **End-to-End Healthcare ML project**.
 
@@ -162,10 +162,9 @@ To build the best possible diabetes prediction model, a comprehensive analysis w
 
 ## Model Performance 
  
- 
 Overall, SVM is the most effective model post-tuning, delivering the strongest balance of accuracy, precision, and recall for high-quality healthcare related predictions.
 
-## Interactive Web-App Features
+## 🌐 Interactive Web-App Features
 •	**Diabetes Risk Assessment:** Input key health parameters including Pregnancies, Glucose, Insulin, BMI, and Age to evaluate diabetes risk.
 
 •	**Real-Time Probability Prediction:** Receive instant risk scores indicating the likelihood of having or not having diabetes, complemented by percentile rankings and visual indicators.
@@ -175,7 +174,7 @@ Overall, SVM is the most effective model post-tuning, delivering the strongest b
 •	**Model Performance Metrics:** View key evaluation metrics such as Precision, Recall, F1 Score, and Accuracy to understand the predictive model’s effectiveness.
 
 
-### Just for Fun 
+## 💡 Just for Fun 
 
 In a World full of 
 <a href="https://icons8.com/icon/13441/python" target="_blank">
@@ -187,16 +186,19 @@ In a World full of
 more Shiny!✨
 
 
-## Communication
-I strongly welcome your Feedback or Suggestions, please contact:
+## Interaction
+
+I warmly welcome your feedback and suggestions. Please feel free to reach out via:
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhandarirhea0697@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riya-bhandari-y)
 
 
-## Thank You, Note!
+## Thank You!
 
-Thank you for showing interest on my first end-to-end ML project and my first deployed application.
+Thanks so much for taking the time to check out my first end-to-end ML project and my very first deployed app. 
+
+I really appreciate your interest!
 
 
 
