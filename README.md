@@ -172,7 +172,7 @@ To build the best possible diabetes prediction model, a comprehensive analysis w
 
 Overall, SVM is the most effective model post-tuning, delivering the strongest balance of accuracy, precision, and recall for high-quality healthcare related predictions.
 
-## 🌐 Interactive Web-App Features
+## 🌐 Web-App Features
 •	**Diabetes Risk Assessment:** Input key health parameters including Pregnancies, Glucose, Insulin, BMI, and Age to evaluate diabetes risk.
 
 •	**Real-Time Probability Prediction:** Receive instant risk scores indicating the likelihood of having or not having diabetes, complemented by percentile rankings and visual indicators.
@@ -181,7 +181,10 @@ Overall, SVM is the most effective model post-tuning, delivering the strongest b
 
 •	**Model Performance Metrics:** View key evaluation metrics such as Precision, Recall, F1 Score, and Accuracy to understand the predictive model’s effectiveness.
 
+## Interactive Dashboard
+Click below to explore live dashboard:
 
+🔗 [View Diabetes Risk Prediction Dashboard](https://public.tableau.com/app/profile/riya.bhandari/viz/DiabetesRiskPrediction/Dashboard)
 
 
 ## 💡 Just for Fun 
