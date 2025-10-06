@@ -11,7 +11,7 @@
 ### 📝Description 
 **DiaWellness** is an AI/ML-powered interactive web application developed in R Shiny and deployed on [shinyapps.io](https://www.shinyapps.io/). Leveraging Real-World Data (RWD), it delivers real-time diabetes risk predictions based on user-input health data, along with visual probability estimates, health-management recommendations sourced from publicly available data, and analysis of model performance metrics.
 
-### Live : [DiaWellnes App](https://zkiymp-riya-bhandari.shinyapps.io/DiaWellnessApp/) 
+### Live : [DiaWellness App](https://zkiymp-riya-bhandari.shinyapps.io/DiaWellnessApp/) 
 
 
 ## 💉🩸Diabetes in Recent Years
