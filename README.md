@@ -1,5 +1,5 @@
 
-# AI/ML Diabetes Risk Prediction End-To-End Project
+# Diabetes Risk Prediction Using Machine Learning in R 
                                                       
                                                   
 <p align="center">
@@ -9,7 +9,7 @@
 
 
 ### 📝Description 
-**DiaWellness** is an AI/ML-powered interactive web application developed in R Shiny and deployed on [shinyapps.io](https://www.shinyapps.io/). Leveraging Real-World Data (RWD), it delivers real-time diabetes risk predictions based on user-input health data, along with visual probability estimates, health-management recommendations sourced from publicly available data, and analysis of model performance metrics.
+**DiaWellness** is an ML-powered interactive web application developed in R Shiny and deployed on [shinyapps.io](https://www.shinyapps.io/). Leveraging Real-World Data (RWD), it delivers real-time diabetes risk predictions based on user-input health data, along with visual probability estimates, health-management recommendations sourced from publicly available data, and analysis of model performance metrics.
 
 ### Live : [DiaWellness App](https://zkiymp-riya-bhandari.shinyapps.io/DiaWellnessApp/) 
 
@@ -20,7 +20,7 @@ According to projections by the International Diabetes Federation (IDF), by the 
 ## 🎯Motivation
 Coming from a biotech background and having worked in the healthcare industry, I love staying updated on new medical breakthroughs. Upon completion of machine learning and deep learning studies, I was intrigued to work on ML project related to real world healthcare problem and came across [Pima Indians Diabetes Database](https://archive.ics.uci.edu/dataset/34/diabetes)  featured on UCI and Kaggle.
 
- What began as an exploratory data analysis and model comparison quickly turned into a full-fledged machine learning project, I started by implementing five supervised algorithms—Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and Support Vector Machine. My curiosity led me to delve deeper by incorporating SMOTE and GridSearchCV for hyperparameter tuning which brought the model performance to the next level.
+What began as an exploratory data analysis and model comparison quickly turned into a full-fledged machine learning project, I started by implementing five supervised algorithms—Logistic Regression, K-Nearest Neighbors, Decision Tree, Random Forest, and Support Vector Machine. My curiosity led me to delve deeper by incorporating SMOTE and GridSearchCV for hyperparameter tuning which brought the model performance to the next level.
  
 Just when I thought the project was done, a nudge in my brain cell pushed me further. I wanted to see my work come to life. That’s when I decided to build an interactive web application using R Shiny. The result? A user-friendly, AI/ML-powered app for real-time diabetes risk prediction— **End-to-End Healthcare ML project**.
 
