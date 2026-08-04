@@ -34,23 +34,23 @@ Just when I thought the project was done, a nudge in my brain cell pushed me fur
 
 **Column Name and Data Types:**
 
-1. Pregnancies - Number of times pregnant
+1. **Pregnancies** - Number of times pregnant
 
-2. Glucose - Plasma glucose concentration of 2 hours in an oral glucose tolerance test
+2. **Glucose** - Plasma glucose concentration of 2 hours in an oral glucose tolerance test
 
-3. BloodPressure - Diastolic blood pressure (mm Hg)
+3. **BloodPressure** - Diastolic blood pressure (mm Hg)
 
-4. SkinThickness - Triceps skin fold thickness (mm)
+4. **SkinThickness** - Triceps skin fold thickness (mm)
 
-5. Insulin - 2-Hour serum insulin (mu U/ml)
+5. **Insulin** - 2-Hour serum insulin (mu U/ml)
 
-6. BMI - Body mass index (weight in kg/(height in m)^2)
+6. **BMI** - Body mass index (weight in kg/(height in m)^2)
 
-7. DiabetesPedigreeFunction	- Diabetes pedigree function
+7. **DiabetesPedigreeFunction**	- Diabetes pedigree function
 
-8. Age - Age (years)
+8. **Age** - Age (years)
 
-9. Outcome - Class variable (0 or 1)
+9. **Outcome** - Class variable (0 or 1)
 
 
 ```r
